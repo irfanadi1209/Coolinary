@@ -80,6 +80,11 @@ nav .navlogo {
   padding-top: 80px;
   height: 75vh;
   text-align: center;
+  color: white;
+}
+.main div {
+  padding-top: 400px;
+  text-shadow: 5px 5px 10px black;
 }
 
 /* end main header */
@@ -88,6 +93,8 @@ nav .navlogo {
 
 .menu {
   background-color: orange;
+  padding-top: 70px;
+  padding-bottom: 20px;
 }
 
 .menu h2 {
@@ -180,9 +187,14 @@ nav .navlogo {
 /* footer */
 
 .footer {
-  background-color: black;
-  opacity: 50%;
+  background: rgba(0, 0, 0, 0.5);
   height: 300px;
+}
+.footerdiv {
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
 }
 
 /* end footer */
@@ -196,7 +208,7 @@ nav .navlogo {
 
   nav ul {
     position: fixed;
-    width: 100%;
+    width: 50%;
     height: 100vh;
     background: #bdae0f;
     top: 80px;
